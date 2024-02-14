@@ -4,7 +4,7 @@
     font-family: Open Sans;
 }
 
-/* common color */
+/* common styles */
 .text-primary{
     color: #FD6E0A;
 }
@@ -23,7 +23,7 @@
 /* nav bar styles */
 nav {
     display: flex;
-    padding: 3.18rem 14.375rem 0rem 14.375rem;
+    padding: 3.125rem 14.375rem;
     justify-content: space-between;
     align-items: center;
 }
@@ -50,4 +50,21 @@ nav ul li a {
     text-decoration: none;
     color: #474747;
     font-size: 20px;
+}
+
+
+/* header styles */
+.header{
+    background-color: rgb(255, 248, 243);
+}
+
+.banner{
+    padding: 1.875rem 1.875rem 1.875rem 9.375rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-pic{
+    width: 31.25rem;
 }
