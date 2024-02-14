@@ -56,13 +56,36 @@ nav ul li a {
 /* header styles */
 .header{
     background-color: rgb(255, 248, 243);
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner{
-    padding: 1.875rem 1.875rem 1.875rem 9.375rem;
+    padding: 1.875rem 1.875rem 0rem 14.375rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.banner-content{
+    width: 36.5rem;
+}
+
+.banner-greeting{
+    font-size: 2.813rem;
+    font-weight: 600;
+    color: #474747;
+}
+
+.banner-title{
+    font-size: 5.3rem;
+    font-weight: 700;
+}
+
+.banner-description{
+    font-size: 1.125rem;
+    padding: 1.35rem 0rem;
 }
 
 .banner-pic{
