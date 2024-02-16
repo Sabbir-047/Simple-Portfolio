@@ -228,4 +228,55 @@ main section {
 }
 
 
-/* social section */
+/* footer section */
+footer {
+    background-color: rgb(255, 248, 243);
+    padding: 8.125rem 0rem;
+}
+
+#footer-section {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 7.313rem;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+/* #footer-section h2 {
+    margin-bottom: 1.5rem;
+} */
+
+.footer-description {
+    color: rgb(71, 71, 71);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 1.875rem 0rem;
+    line-height: 1.5rem;
+}
+
+/* contact */
+.contact input[type="text"], input[type="email"],
+textarea {
+    display: block;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 1.25rem;
+    border: 0;
+    border-radius: 5px;
+}
+
+.contact [placeholder] {
+    font-size: 1rem;
+    color: rgb(117, 117, 117);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+}
+
+#footer-button{
+    margin-top: 2rem;
+}
