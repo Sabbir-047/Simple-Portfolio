@@ -112,13 +112,37 @@ nav ul li a {
 
 /* main section styles */
 main {
-    margin: 8.125rem 14.375rem;
+    max-width: 1140px;
+    /* margin: 8.125rem 14.375rem; */
+    margin: 0 auto;
+    padding: 8.125rem 0rem;
 }
 
 /* about section */
 .about-me {
     padding: 8.18rem 9.75rem;
     background-color: rgb(255, 248, 243);
+}
+
+.about-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.about-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+    color: #757575;
+    margin-bottom: 0.5rem;
+}
+
+.about-info{
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.875rem;
 }
 
 /* work section */
