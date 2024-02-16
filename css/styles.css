@@ -73,9 +73,9 @@ nav ul li a {
 /* header styles */
 .header {
     background-color: rgb(255, 248, 243);
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, left;
 }
 
 .banner {
@@ -256,6 +256,10 @@ footer {
     font-weight: 400;
     margin: 1.875rem 0rem;
     line-height: 1.5rem;
+}
+
+.social-links a{
+    margin-right: 1.5rem;
 }
 
 /* contact */
